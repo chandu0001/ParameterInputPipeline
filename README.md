@@ -1,0 +1,2 @@
+# ParameterInputPipeline
+Asking for human input to proceed  Often when passing between stages, especially environment stages, you may want human input before continuing. For example, to judge if the application is in a good enough state to "promote" to the production environment. This can be accomplished with the input step.\In the example below, the "Sanity check" stage actually blocks for input and won’t proceed without a person confirming the progress.
